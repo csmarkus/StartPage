@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'sp-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'sp-root',
+    templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'StartPage';
+    pageTitle: string = "StartPage"
 }

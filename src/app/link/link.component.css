@@ -1,0 +1,19 @@
+a {
+    border-left: 5px solid #4ecca3
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h2 {
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+    text-transform: lowercase;
+    color: #4ecca3;
+}

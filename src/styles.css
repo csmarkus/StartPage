@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+body {
+    padding-top: 25px;
+    background-color: #393e46;
+    font-family: Roboto;
+    color: #eeeeee;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+        1px 3px 8px rgba(39, 44, 49, 0.03);
+    border: 0px;
+    margin: 10px 0;
+    padding: 0px;
+    background-color: #30323d;
+}
+
+.card .card-body {
+    padding: 15px;
+}

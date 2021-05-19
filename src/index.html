@@ -2,12 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>StartPage</title>
-  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hub of links to various services">
+  <meta name="author" content="Craig Smarkus">
+
+  <title>Hub</title>
+  
+  <base href="/">
+
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 </head>
 <body>
   <sp-root></sp-root>
+  <script>
+    function InstantClass() {
+      var links = [
+        "https://www.youtube.com/watch?v=mPZkdNFkNps",
+        "https://www.youtube.com/watch?v=L_LUpnjgPso",
+        "https://www.youtube.com/watch?v=2ZRE0Fvisyc"
+      ]
+      
+      for (var i = 0; i < links.length; i++) {
+        window.open(links[i], '_blank');
+      }
+    }
+  </script>
 </body>
 </html>
