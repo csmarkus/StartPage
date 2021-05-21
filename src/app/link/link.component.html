@@ -1,6 +1,6 @@
-<a href="" class="card text-reset text-decoration-none">
+<a href="{{ link.url }}" class="card text-reset text-decoration-none">
     <div class="card-body">
-        <h1>name</h1>
-        <h2>url</h2>
+        <h1>{{ link.text }}</h1>
+        <h2>{{ (link.url).replace("https://", "").replace("http://", "") }}</h2>
     </div>
 </a>

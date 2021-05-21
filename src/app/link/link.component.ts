@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ILink } from './link';
 
 @Component({
     selector: '[sp-link]',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./link.component.css']
 })
 export class LinkComponent implements OnInit {
+    @Input()
+    link!: ILink;
 
     constructor() { }
 
